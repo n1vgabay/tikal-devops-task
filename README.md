@@ -2,8 +2,9 @@
 Private project for Tikal Comapny, intrerview task.
 
 # # Pre-install requierments:
-- minikube
-- kubectl
+- minikube (2 CPU, 2GB MEMORY, 20GB FREE SPACE)
+- kubectl CLI
+- Docker
 
 # # Init
 - minikube start
