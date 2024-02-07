@@ -1,4 +1,4 @@
-# tikal
+# Tikal
 Private project for Tikal Comapny, intrerview task.
 
 # # Pre-install requierments:
