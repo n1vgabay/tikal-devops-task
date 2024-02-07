@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world-deployment-b
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-world-deployment-b
+  template:
+    metadata:
+      labels:
+        app: hello-world-deployment-b
+    spec:
+      containers:
+      - name: hello-world-deployment-b
+        image: cloudecho/hello
+        ports:
+        - containerPort: 80

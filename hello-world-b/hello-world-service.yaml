@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: hello-world-svc-b
+  name: hello-world-svc-b
+spec:
+  ports:
+  - name: hello-world-svc-b
+    port: 80
+    targetPort: 8080
+  selector:
+    app: hello-world-deployment-b
+status:
+  loadBalancer: {}
